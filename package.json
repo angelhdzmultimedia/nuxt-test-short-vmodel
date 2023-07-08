@@ -10,5 +10,8 @@
   "devDependencies": {
     "@types/node": "^18.16.19",
     "nuxt": "^3.6.2"
+  },
+  "dependencies": {
+    "@vue-macros/short-vmodel": "^1.2.10"
   }
 }

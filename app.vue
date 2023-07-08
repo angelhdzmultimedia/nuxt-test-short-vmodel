@@ -1,5 +1,9 @@
+<script lang="ts" setup>
+const name = ref('')
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <Test $name="name" />
   </div>
 </template>
