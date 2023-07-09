@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-const name = ref('')
+const name = ref('Angel')
 </script>
 
 <template>
   <div>
-    <Test $name="name" />
+    <Test $="name" />
   </div>
 </template>

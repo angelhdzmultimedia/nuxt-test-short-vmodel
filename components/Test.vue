@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-const props = defineProps<{ name: string }>()
+const props = defineProps<{ modelValue: string }>()
 </script>
 
 <template>
-  <div><b>Test:</b>{{ props.name }}</div>
+  <div><b>Test:</b>{{ props.modelValue }}</div>
 </template>

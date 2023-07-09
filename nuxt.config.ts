@@ -3,7 +3,8 @@ import { transformShortVmodel } from '@vue-macros/short-vmodel'
 import vue from '@vitejs/plugin-vue'
 
 export default defineNuxtConfig({
-  vite: {
+  ssr: false,
+  /*  vite: {
     plugins: [
       vue({
         template: {
@@ -17,6 +18,6 @@ export default defineNuxtConfig({
         },
       }),
     ],
-  },
+  }, */
   modules: ['@vue-macros/nuxt'],
 })
